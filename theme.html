@@ -87,6 +87,10 @@
                             <time datetime="{{ post.created_at }}">{{ post.created_at.strftime('%d %b') }}</time> &rsaquo; <a href="{{ post.permalink }}" class="permalink">{{ post.title }}</a>
                             <div class="post-tags hidden-phone">
                                 {{- post.tags|format_tags(humanize=True) -}}
+                                <!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54cfae4f0ade0d8d" async="async"></script>
+
+
                             </div>
                         </article>
                     </li>
